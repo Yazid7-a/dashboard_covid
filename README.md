@@ -50,7 +50,7 @@ Ejecuta el siguiente comando en la terminal dentro del proyecto:
 bash
 Copiar
 Editar
-streamlit run scripts/dashboard.py
+streamlit run dashboard.py
 Se abrirá automáticamente en tu navegador.
 
 📊 Funcionalidades del Dashboard
