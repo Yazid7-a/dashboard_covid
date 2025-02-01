@@ -1,126 +1,78 @@
 Dashboard COVID-19
+📊 Visualización interactiva de datos COVID-19 en España por provincia.
 
-Descripción
+Descripción del Proyecto
+Este dashboard permite visualizar y analizar los datos de COVID-19 en España, proporcionando gráficos interactivos que muestran tendencias por provincia. Utiliza Streamlit para la interfaz y Plotly para la visualización de datos, permitiendo una experiencia intuitiva y dinámica.
 
-Dashboard COVID-19 es un proyecto interactivo diseñado para visualizar datos relacionados con la pandemia de COVID-19 en diferentes provincias. Este dashboard permite analizar tendencias clave, como defunciones, nuevos casos, hospitalizaciones y pacientes en UCI. Es una herramienta intuitiva que combina visualizaciones de datos en tiempo real con una interfaz de usuario sencilla y funcional.
+🚀 Características
+✅ Visualización Interactiva: Gráficos de barras y gráficos de pastel dinámicos con Plotly.
+✅ Datos Agrupados: Procesamiento de datos desde CSV a JSON por día de la semana y provincia.
+✅ Interfaz Moderna: Desarrollado con Streamlit para una experiencia fluida y en tiempo real.
+✅ Análisis Detallado: Identificación de provincias con mayor y menor impacto en cada métrica.
+✅ Código Modular: Organización clara con separación de procesamiento de datos y visualización.
 
-Este proyecto fue desarrollado como parte de un Trabajo de Fin de Grado (TFG).
-
-Características principales
-
-Visualización interactiva: Explora múltiples métricas clave, como defunciones, casos nuevos, hospitalizaciones y pacientes en UCI.
-
-Gráficos dinámicos: Visualizaciones disponibles en formato de barras y pastel interactivo.
-
-Fácil navegación: Opciones seleccionables desde una barra lateral.
-
-Análisis rápido: Identifica las provincias con valores máximos y mínimos en cada métrica.
-
-Procesamiento eficiente: Los datos se agrupan y procesan automáticamente desde un archivo CSV a formato JSON.
-
-Tecnologías utilizadas
-
-Python 3.13: Lenguaje principal utilizado para desarrollar el proyecto.
-
-Streamlit: Herramienta para crear dashboards interactivos y fáciles de usar.
-
-Plotly: Biblioteca de visualización interactiva para crear gráficos avanzados.
-
-Pandas: Para el procesamiento y manipulación de datos.
-
-Requisitos previos
-
-Antes de comenzar, asegúrate de tener instalado lo siguiente:
-
-Python 3.13 o superior.
-
-Las siguientes bibliotecas de Python:
-
-streamlit
-plotly
-pandas
-
-Puedes instalar las dependencias ejecutando:
-
-pip install -r requirements.txt
-
-Instalación y ejecución
-
-Sigue los pasos a continuación para configurar y ejecutar el proyecto:
-
-Clona el repositorio:
-
+📂 Estructura del Proyecto
+graphql
+Copiar
+Editar
+dashboard_covid/
+│── data/                       # Archivos de datos
+│   ├── Proyecto_3.csv          # Archivo CSV con los datos originales
+│   ├── data_grouped.json       # Datos procesados en formato JSON
+│
+│── scripts/                     # Scripts de código
+│   ├── data_processing.py       # Procesamiento de datos CSV a JSON
+│   ├── visualization.py         # Funciones de visualización (gráficos)
+│   ├── dashboard.py             # Interfaz principal con Streamlit
+│
+│── README.md                    # Documentación del proyecto
+│── requirements.txt              # Dependencias necesarias
+⚙️ Instalación y Ejecución
+1️⃣ Requisitos previos
+Tener Python 3.8 o superior instalado.
+Instalar Git (opcional, si deseas clonar el repositorio en lugar de descargarlo).
+2️⃣ Clonar el repositorio (opcional)
+bash
+Copiar
+Editar
 git clone https://github.com/Yazid7-a/dashboard_covid.git
-
-Accede al directorio del proyecto:
-
 cd dashboard_covid
+3️⃣ Instalar dependencias
+Ejecuta el siguiente comando en la terminal para instalar todas las librerías necesarias:
 
-Instala las dependencias necesarias:
-
+bash
+Copiar
+Editar
 pip install -r requirements.txt
+4️⃣ Ejecutar el Dashboard
+Ejecuta el siguiente comando en la terminal dentro del proyecto:
 
-Ejecuta el dashboard:
+bash
+Copiar
+Editar
+streamlit run scripts/dashboard.py
+Se abrirá automáticamente en tu navegador.
 
-streamlit run dashboard.py
+📊 Funcionalidades del Dashboard
+🔹 Defunciones, Casos, Hospitalizaciones y UCI: Visualización de datos acumulados por provincia.
+🔹 Gráficos de Barras: Comparación de valores por provincia.
+🔹 Gráficos de Pastel Interactivos: Distribución de casos por provincia.
+🔹 Filtrado y Selección: Posibilidad de cambiar la métrica y tipo de gráfico en el sidebar.
 
-Interactúa con el dashboard: Abre el enlace que aparecerá en la terminal (generalmente: http://localhost:8501) y selecciona las opciones deseadas desde la barra lateral.
+🛠 Tecnologías Usadas
+🔹 Python - Lenguaje de programación principal.
+🔹 Pandas - Procesamiento y manipulación de datos.
+🔹 Plotly - Gráficos interactivos.
+🔹 Streamlit - Creación de interfaz gráfica de usuario.
+🔹 Git & GitHub - Control de versiones y almacenamiento en la nube.
 
-Estructura del proyecto
+👨‍💻 Autor
+📌 Nombre: Yazid Ikoubaane Slafti
+📧 Correo: yazidslafti7@gmail.com
+📌 GitHub: Yazid7-a
 
-El proyecto está organizado de la siguiente manera:
+📜 Licencia
+Este proyecto es de código abierto y está disponible bajo la licencia MIT.
 
-.
-├── data
-│   ├── Proyecto_3.csv            # Archivo CSV original con los datos
-│
-├── output
-│   ├── data_grouped.json         # Archivo JSON procesado y agrupado
-│
-├── scripts
-│   ├── data_processing.py        # Procesamiento de datos CSV a JSON
-│   ├── visualization.py          # Funciones para generar gráficos
-│   ├── dashboard.py              # Archivo principal del dashboard
-│
-├── README.md                     # Documentación del proyecto
-├── requirements.txt              # Lista de dependencias
-
-Uso del dashboard
-
-Selecciona una métrica a visualizar desde la barra lateral:
-
-Defunciones
-
-Casos nuevos
-
-Hospitalizados
-
-Pacientes en UCI
-
-Selecciona el tipo de gráfico:
-
-Barras
-
-Pastel interactivo
-
-Analiza las visualizaciones y los valores máximos y mínimos para cada métrica.
-
-Contribución
-
-Si deseas contribuir a este proyecto:
-
-Abre un issue para informar errores o sugerir mejoras.
-
-Realiza un fork del repositorio y envía un pull request.
-
-Autor
-
-Yazid Ikoubaane Slafti
-
-Correo: yazidslafti7@gmail.com
-
-GitHub: Yazid7-a
-
-Licencia
-
-Este proyecto está licenciado bajo la licencia MIT. Puedes consultar el archivo LICENSE para más detalles.
+🔗 Enlace al Repositorio
+📂 Dashboard COVID-19 en GitHub
