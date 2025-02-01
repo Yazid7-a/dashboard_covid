@@ -1,0 +1,316 @@
+{
+    "2021-05": {
+        "Albacete": {
+            "num_def": 17698,
+            "new_cases": 0,
+            "hospitalized": 353,
+            "intensive_care": 83
+        },
+        "Alicante/Alacant": {
+            "num_def": 67641,
+            "new_cases": 1355,
+            "hospitalized": 694,
+            "intensive_care": 194
+        },
+        "Almería": {
+            "num_def": 19706,
+            "new_cases": 0,
+            "hospitalized": 1920,
+            "intensive_care": 765
+        },
+        "Araba/Álava": {
+            "num_def": 1450,
+            "new_cases": 1148,
+            "hospitalized": 0,
+            "intensive_care": 0
+        },
+        "Asturias": {
+            "num_def": 60845,
+            "new_cases": 1655,
+            "hospitalized": 2811,
+            "intensive_care": 1138
+        },
+        "Badajoz": {
+            "num_def": 28046,
+            "new_cases": 1267,
+            "hospitalized": 809,
+            "intensive_care": 136
+        },
+        "Balears, Illes": {
+            "num_def": 20833,
+            "new_cases": 0,
+            "hospitalized": 830,
+            "intensive_care": 456
+        },
+        "Barcelona": {
+            "num_def": 552170,
+            "new_cases": 0,
+            "hospitalized": 22241,
+            "intensive_care": 6579
+        },
+        "Bizkaia": {
+            "num_def": 4634,
+            "new_cases": 7047,
+            "hospitalized": 0,
+            "intensive_care": 0
+        },
+        "Burgos": {
+            "num_def": 42661,
+            "new_cases": 1694,
+            "hospitalized": 1705,
+            "intensive_care": 562
+        },
+        "Cantabria": {
+            "num_def": 17518,
+            "new_cases": 0,
+            "hospitalized": 2347,
+            "intensive_care": 604
+        },
+        "Castellón/Castelló": {
+            "num_def": 19236,
+            "new_cases": 628,
+            "hospitalized": 539,
+            "intensive_care": 101
+        },
+        "Ceuta": {
+            "num_def": 2471,
+            "new_cases": 27,
+            "hospitalized": 243,
+            "intensive_care": 85
+        },
+        "Ciudad Real": {
+            "num_def": 34332,
+            "new_cases": 0,
+            "hospitalized": 948,
+            "intensive_care": 391
+        },
+        "Coruña, A": {
+            "num_def": 36160,
+            "new_cases": 0,
+            "hospitalized": 2290,
+            "intensive_care": 431
+        },
+        "Cuenca": {
+            "num_def": 10787,
+            "new_cases": 0,
+            "hospitalized": 189,
+            "intensive_care": 50
+        },
+        "Cáceres": {
+            "num_def": 26549,
+            "new_cases": 585,
+            "hospitalized": 574,
+            "intensive_care": 219
+        },
+        "Cádiz": {
+            "num_def": 35236,
+            "new_cases": 0,
+            "hospitalized": 2541,
+            "intensive_care": 686
+        },
+        "Córdoba": {
+            "num_def": 22734,
+            "new_cases": 0,
+            "hospitalized": 2682,
+            "intensive_care": 991
+        },
+        "Gipuzkoa": {
+            "num_def": 2356,
+            "new_cases": 4507,
+            "hospitalized": 0,
+            "intensive_care": 0
+        },
+        "Girona": {
+            "num_def": 65929,
+            "new_cases": 0,
+            "hospitalized": 4014,
+            "intensive_care": 1215
+        },
+        "Granada": {
+            "num_def": 41491,
+            "new_cases": 0,
+            "hospitalized": 6835,
+            "intensive_care": 1998
+        },
+        "Guadalajara": {
+            "num_def": 12442,
+            "new_cases": 0,
+            "hospitalized": 686,
+            "intensive_care": 377
+        },
+        "Huelva": {
+            "num_def": 8895,
+            "new_cases": 0,
+            "hospitalized": 1765,
+            "intensive_care": 242
+        },
+        "Huesca": {
+            "num_def": 14850,
+            "new_cases": 726,
+            "hospitalized": 902,
+            "intensive_care": 210
+        },
+        "Jaén": {
+            "num_def": 23341,
+            "new_cases": 0,
+            "hospitalized": 3223,
+            "intensive_care": 526
+        },
+        "León": {
+            "num_def": 65486,
+            "new_cases": 1307,
+            "hospitalized": 1125,
+            "intensive_care": 793
+        },
+        "Lleida": {
+            "num_def": 24752,
+            "new_cases": 0,
+            "hospitalized": 2526,
+            "intensive_care": 584
+        },
+        "Lugo": {
+            "num_def": 6639,
+            "new_cases": 0,
+            "hospitalized": 319,
+            "intensive_care": 56
+        },
+        "Madrid": {
+            "num_def": 507035,
+            "new_cases": 0,
+            "hospitalized": 55233,
+            "intensive_care": 13683
+        },
+        "Melilla": {
+            "num_def": 2960,
+            "new_cases": 0,
+            "hospitalized": 458,
+            "intensive_care": 51
+        },
+        "Murcia": {
+            "num_def": 49519,
+            "new_cases": 2025,
+            "hospitalized": 2252,
+            "intensive_care": 842
+        },
+        "Málaga": {
+            "num_def": 39274,
+            "new_cases": 0,
+            "hospitalized": 3511,
+            "intensive_care": 595
+        },
+        "Navarra": {
+            "num_def": 36559,
+            "new_cases": 0,
+            "hospitalized": 2364,
+            "intensive_care": 645
+        },
+        "Ourense": {
+            "num_def": 12931,
+            "new_cases": 0,
+            "hospitalized": 479,
+            "intensive_care": 148
+        },
+        "Palencia": {
+            "num_def": 24900,
+            "new_cases": 537,
+            "hospitalized": 372,
+            "intensive_care": 309
+        },
+        "Palmas, Las": {
+            "num_def": 10094,
+            "new_cases": 1622,
+            "hospitalized": 2650,
+            "intensive_care": 1058
+        },
+        "Pontevedra": {
+            "num_def": 18777,
+            "new_cases": 0,
+            "hospitalized": 2069,
+            "intensive_care": 518
+        },
+        "Rioja, La": {
+            "num_def": 19158,
+            "new_cases": 0,
+            "hospitalized": 879,
+            "intensive_care": 392
+        },
+        "Salamanca": {
+            "num_def": 52192,
+            "new_cases": 661,
+            "hospitalized": 617,
+            "intensive_care": 262
+        },
+        "Santa Cruz de Tenerife": {
+            "num_def": 13359,
+            "new_cases": 2084,
+            "hospitalized": 3190,
+            "intensive_care": 694
+        },
+        "Segovia": {
+            "num_def": 30228,
+            "new_cases": 522,
+            "hospitalized": 492,
+            "intensive_care": 263
+        },
+        "Sevilla": {
+            "num_def": 47139,
+            "new_cases": 0,
+            "hospitalized": 7377,
+            "intensive_care": 2104
+        },
+        "Soria": {
+            "num_def": 19243,
+            "new_cases": 201,
+            "hospitalized": 266,
+            "intensive_care": 195
+        },
+        "Tarragona": {
+            "num_def": 40018,
+            "new_cases": 0,
+            "hospitalized": 2938,
+            "intensive_care": 1231
+        },
+        "Teruel": {
+            "num_def": 12865,
+            "new_cases": 186,
+            "hospitalized": 354,
+            "intensive_care": 31
+        },
+        "Toledo": {
+            "num_def": 44468,
+            "new_cases": 0,
+            "hospitalized": 3471,
+            "intensive_care": 652
+        },
+        "Valencia/València": {
+            "num_def": 90558,
+            "new_cases": 1913,
+            "hospitalized": 1359,
+            "intensive_care": 506
+        },
+        "Valladolid": {
+            "num_def": 59763,
+            "new_cases": 1513,
+            "hospitalized": 1497,
+            "intensive_care": 870
+        },
+        "Zamora": {
+            "num_def": 22428,
+            "new_cases": 352,
+            "hospitalized": 520,
+            "intensive_care": 130
+        },
+        "Zaragoza": {
+            "num_def": 79430,
+            "new_cases": 4684,
+            "hospitalized": 7664,
+            "intensive_care": 1613
+        },
+        "Ávila": {
+            "num_def": 22775,
+            "new_cases": 377,
+            "hospitalized": 277,
+            "intensive_care": 255
+        }
+    }
+}
